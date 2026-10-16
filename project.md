@@ -1,24 +1,21 @@
-Đề bài / Yêu cầu
-1. Mục tiêu
-
-So sánh hiệu quả của Markdown và HTML dựa trên khái niệm Token của AI.
-
-Đánh giá tính "Human-readable" (người đọc được) của ngôn ngữ đánh dấu.
-
-2. Bối cảnh & Yêu cầu bài toán
-
-Bạn đang thiết kế hệ thống "Chuyên gia nông nghiệp AI" để trả lời thắc mắc của người nông dân. Bạn phải lựa chọn giữa việc gửi dữ liệu định dạng HTML rườm rà hay Markdown ngắn gọn để tiết kiệm chi phí Token và tăng tốc độ xử lý.
-
-3. Quy tắc nghiệp vụ
-
-Dựa trên các tiêu chí: số lượng ký tự cho cùng một định dạng (ví dụ in đậm), độ dễ đọc đối với người dùng, và hiệu quả xử lý của AI.
-
-4. Yêu cầu đầu ra
-
-Phần 1. Phân tích bài toán: Giải thích tại sao Markdown lại giúp AI xử lý nhanh hơn dựa trên cơ chế chia nhỏ Token.
-
-Phần 2. So sánh & Đánh giá: Lập bảng so sánh Markdown và HTML. Đưa ra giải pháp tối ưu cho hệ thống "GreenTech" và lập luận lý do.
-
-5. Quy định nộp bài
-
-Repository: [Tên Lớp]_[Môn Học]_Session08_Ex03.
+## **Phần 1. Phân tích bài toán**
+Markdown thường ngắn gọn hơn HTML vì sử dụng các ký hiệu đơn giản để định dạng văn bản, trong khi HTML cần nhiều thẻ mở và đóng.
+Ví dụ cùng một nội dung in đậm:
+•	Markdown: **Rau sạch**
+•	HTML: <strong>Rau sạch</strong>
+## **Phần 2. So sánh & Đánh giá:**
+| Tiêu chí | Markdown | HTML |
+|---|---|---|
+| Cú pháp | Ngắn gọn, đơn giản | Nhiều thẻ mở và đóng |
+| Số ký tự | Thường ít hơn | Thường nhiều hơn |
+| Human-readable | Dễ đọc, dễ hiểu | Khó đọc khi có nhiều thẻ |
+| Token AI | Thường tiết kiệm Token hơn | Có thể tốn nhiều Token hơn |
+| Xử lý AI | Phù hợp với nội dung hỏi đáp | Phù hợp với cấu trúc phức tạp |
+| Ứng dụng | Chatbot, tài liệu hướng dẫn | Trang web, giao diện phức tạp |
+### **Giải pháp tối ưu cho hệ thống GreenTech**
+Đề xuất sử dụng Markdown làm định dạng trao đổi nội dung chính giữa hệ thống AI và người dùng.
+Lý do:
+- Tiết kiệm chi phí: Cú pháp thường ngắn gọn, giúp giảm lượng Token khi soạn nội dung tương đương.
+- Dễ đọc: Người nông dân dễ theo dõi hướng dẫn, danh sách và các bước chăm sóc cây trồng.
+- Dễ bảo trì: Tài liệu Markdown đơn giản, thuận tiện cập nhật và quản lý bằng Git.
+- Linh hoạt: Có thể chuyển Markdown sang HTML để hiển thị trên giao diện website.
